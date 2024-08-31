@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from FULL-64-ARMV82 device
-$(call inherit-product, device/tecno/FULL-64-ARMV82/device.mk)
+$(call inherit-product, device/tecno/LH8n/device.mk)
 
 PRODUCT_MODEL := TECNO LH8n
 PRODUCT_DEVICE := LH8n
