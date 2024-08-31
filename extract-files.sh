@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=FULL-64-ARMV82
+DEVICE=LH8n
 VENDOR=tecno
 
 # Load extract_utils and do some sanity checks
