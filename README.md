@@ -1,12 +1,3 @@
-# Android device tree for TECNO  (FULL-64-ARMV82)
-
-```
-#
-# Copyright (C) 2024 The LineageOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-```
 # CUSROMTOL_LH8n
 - Manufacturer: tecno
 - Platform: mt6833
@@ -27,3 +18,13 @@
 - OTA version: 
 - Branch: sys_tssi_64_armv82_tecno-user-14-UP1A.231005.007-651371-release-keys
 - Repo: tecno_tecno-lh8n_dump
+- 
+# Android device tree for LH8n
+
+```
+#
+# Copyright (C) 2024 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
