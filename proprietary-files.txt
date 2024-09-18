@@ -1,5 +1,3 @@
-# Unpinned blobs from sys_tssi_64_armv82_tecno-user 14 UP1A.231005.007 651371 release-keys
-
 # Audio
 vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/etc/init/android.hardware.audio.service.mediatek.rc
