@@ -1,7 +1,7 @@
 [
   {
     "remote"      : "github",
-    "repository"  : "naden01/android_vendor_tecno_LG7n",
+    "repository"  : "naden01/android_vendor_tecno_LH8nn",
     "branch"      : "fourteen",
     "target_path" : "vendor/tecno/LH8n"
   },
@@ -13,7 +13,7 @@
   },
   {
     "remote"      : "github",
-    "repository"  : "naden01/device_tecno_lg7n_kernel",
+    "repository"  : "naden01/device_tecno_LH8n_kernel",
     "branch"      : "lineage-21",
     "target_path" : "device/tecno/LH8n-kernel"
   },
