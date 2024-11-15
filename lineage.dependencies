@@ -1,8 +1,8 @@
 [
   {
     "remote"      : "github",
-    "repository"  : "naden01/android_vendor_tecno_LH8nn",
-    "branch"      : "fourteen",
+    "repository"  : "naden01/android_vendor_tecno_LH8n",
+    "branch"      : "14",
     "target_path" : "vendor/tecno/LH8n"
   },
   {
