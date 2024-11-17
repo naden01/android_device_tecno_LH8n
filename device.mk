@@ -4,12 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
-# A/B
-$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
-
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS := \
     boot \
@@ -112,4 +106,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/tecno/FULL-64-ARMV82/FULL-64-ARMV82-vendor.mk)
+$(call inherit-product, vendor/tecno/LH8n/LH8n-vendor.mk)
