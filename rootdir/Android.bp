@@ -11,30 +11,10 @@ sh_binary {
     vendor: true,
 }
 
-sh_binary {
-    name: "init.tran_mcf.sh",
-    src: "bin/init.tran_mcf.sh",
-    vendor: true,
-}
-
 // Init configuration files
 prebuilt_etc {
     name: "factory_init.connectivity.common.rc",
     src: "etc/factory_init.connectivity.common.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "factory_init.connectivity.rc",
-    src: "etc/factory_init.connectivity.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "factory_init.project.rc",
-    src: "etc/factory_init.project.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
@@ -54,22 +34,8 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.ago.rc",
-    src: "etc/init.ago.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.cgroup.rc",
     src: "etc/init.cgroup.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.connectivity.common.rc",
-    src: "etc/init.connectivity.common.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
@@ -124,13 +90,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.stnfc.rc",
-    src: "etc/init.stnfc.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init_connectivity.rc",
     src: "etc/init_connectivity.rc",
     sub_dir: "init/hw",
@@ -144,40 +103,6 @@ prebuilt_etc {
     vendor: true,
 }
 
-prebuilt_etc {
-    name: "meta_init.connectivity.rc",
-    src: "etc/meta_init.connectivity.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "meta_init.modem.rc",
-    src: "etc/meta_init.modem.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "meta_init.project.rc",
-    src: "etc/meta_init.project.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "meta_init.rc",
-    src: "etc/meta_init.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "meta_init.vendor.rc",
-    src: "etc/meta_init.vendor.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
 
 prebuilt_etc {
     name: "multi_init.rc",
@@ -188,7 +113,7 @@ prebuilt_etc {
 
 // fstab
 prebuilt_etc {
-    name: "fstab.emmc",
-    src: "etc/fstab.emmc",
+    name: "fstab.mt6833",
+    src: "etc/fstab.mt6833",
     vendor: true,
 }
