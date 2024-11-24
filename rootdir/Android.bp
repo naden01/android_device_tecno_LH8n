@@ -11,24 +11,9 @@ sh_binary {
     vendor: true,
 }
 
-// Init configuration files
-prebuilt_etc {
-    name: "factory_init.connectivity.common.rc",
-    src: "etc/factory_init.connectivity.common.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
 prebuilt_etc {
     name: "factory_init.rc",
     src: "etc/factory_init.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.aee.rc",
-    src: "etc/init.aee.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
@@ -40,12 +25,6 @@ prebuilt_etc {
     vendor: true,
 }
 
-prebuilt_etc {
-    name: "init.connectivity.rc",
-    src: "etc/init.connectivity.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
 
 prebuilt_etc {
     name: "init.modem.rc",
@@ -95,14 +74,6 @@ prebuilt_etc {
     sub_dir: "init/hw",
     vendor: true,
 }
-
-prebuilt_etc {
-    name: "meta_init.connectivity.common.rc",
-    src: "etc/meta_init.connectivity.common.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
 
 prebuilt_etc {
     name: "multi_init.rc",
