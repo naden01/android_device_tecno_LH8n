@@ -12,13 +12,6 @@ sh_binary {
 }
 
 prebuilt_etc {
-    name: "factory_init.rc",
-    src: "etc/factory_init.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.cgroup.rc",
     src: "etc/init.cgroup.rc",
     sub_dir: "init/hw",
@@ -64,20 +57,6 @@ prebuilt_etc {
 prebuilt_etc {
     name: "init.sensor_2_0.rc",
     src: "etc/init.sensor_2_0.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init_connectivity.rc",
-    src: "etc/init_connectivity.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "multi_init.rc",
-    src: "etc/multi_init.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
