@@ -58,7 +58,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.audio@7.0-impl \
-    android.hardware.audio.sounddose-vendor-impl \
     android.hardware.soundtrigger@2.3-impl
 
 PRODUCT_PACKAGES += \
@@ -105,7 +104,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6.vendor
 
 PRODUCT_PACKAGES += \
-    libshim_camera_metadata \
     libdng_sdk.vendor \
     libexpat.vendor \
     libexif.vendor \
@@ -155,10 +153,6 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-base \
     mediatek-telephony-common
 
-PRODUCT_PACKAGES += \
-    libshim_sink \
-    libshim_ui
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
 
@@ -189,7 +183,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayLH8n \
 	FrameworksResOverlayLH8n \
-	SettingsResOverlayLH8n \
+	SettingsOverlayLH8n \
 	SystemUIOverlayLH8n \
 	TelephonyOverlayLH8n \
 	WifiResOverlayLH8n
@@ -374,18 +368,14 @@ PRODUCT_PACKAGES += \
 
 # init files
 PRODUCT_PACKAGES += \
-    fstab.mt6893 \
-    fstab.mt6893.vendor_ramdisk \
     init.cgroup.rc \
-    init.connectivity.common.rc \
-    init.connectivity.rc \
     init.modem.rc \
     init.mt6833.rc \
     init.mt6833.usb.rc \
     init.mtkgki.rc \
     init.project.rc \
     init.sensor_2_0.rc \
-    ueventd.mt6833.rc
+    ueventd.rc
 	
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6833:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.mt6833
