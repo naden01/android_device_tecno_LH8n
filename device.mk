@@ -217,11 +217,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/lineage/interfaces/power-libperfmgr \
-    hardware/google/interfaces \
-    hardware/google/pixel \
     hardware/mediatek \
-    hardware/mediatek/libmtkperf_client \
     hardware/transsion
 	
 # Public Libraries
