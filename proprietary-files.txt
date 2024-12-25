@@ -1814,7 +1814,7 @@ vendor/lib64/hw/vibrator.default.so
 vendor/lib64/libaacvibrator.so
 vendor/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so
 
-# Vibrator
+# Vibrator firmware and another firmware
 vendor/firmware/aw8622x_haptic.bin
 vendor/firmware/aw8622x_osc_rtp_12K_10s.bin
 vendor/firmware/aw8622x_rtp.bin
